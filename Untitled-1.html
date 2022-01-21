@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="container">
+
+
+
+    <form id="survey-form">
+        <div class="form">
+            <h1 id="title">Form free code camp</h1>
+            <p id="description">"Love what you have before life teaches you to love what you lost"</p>
+        </div>
+        <div class="form">
+            <label class="question-title" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form">
+            <label class="question-title" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form">
+            <label class="question-title" id="number-label">Age</label>
+            <input type="number" id="number" placeholder="Enter your ege" min="18" max="50">
+        </div>
+
+        <div>
+            <div>
+                <p class="question-title"> Future inspiration</p>
+                <select id="dropdown">
+                    <option value="#" style="opacity: 50%;">Select option</option>
+                    <option value="#">Programmer</option>
+                    <option value="#">Engineer</option>
+                    <option value="#">Seller</option>
+                    <option value="#">Teacher</option>
+                </select>
+            </div>
+
+            <div id="personal-info">
+                <p class="question-title">Favorite hobbies</p>
+                <label>
+                    <input type="checkbox" name="1" value="1" class="checkbox-input">
+                    Video game
+
+                </label>
+                <label>
+                    <input type="checkbox" name="1" value="2" class="checkbox-input">
+                    Sports
+
+                </label>
+                <label>
+                    <input type="checkbox" name="1" value="3" class="checkbox-input">
+                    Reading
+
+                </label>
+                <label>
+                    <input type="checkbox" name="1" value="4" class="checkbox-input">
+                    Cinema and series
+
+                </label>
+                <label>
+                    <input type="checkbox" name="1" value="5" class="checkbox-input">
+                    Walks
+                </label>
+            </div>
+
+            <div id="personal-info">
+                <p class="question-title">Free time</p>
+                <label>
+                    <input type="radio" name="2" value="4" checked>
+                    1 Hour - 2 Hour
+                </label>
+                <label>
+                    <input type="radio" name="2" value="1">
+                    2 Hour - 3 Hour
+                </label>
+                <label>
+                    <input type="radio" name="2" value="2">
+                    3 Hour - 4 Hour
+                </label>
+                <label>
+                    <input type="radio" name="2" value="3">
+                    4 Hour- 5 Hour
+                </label>
+
+            </div>
+
+            <div>
+                <p class="question-title"> Student level</p>
+                <select id="dropdown">
+                    <option value="#">High school
+                    </option>
+                    <option value="#">Undergraduate
+                    </option>
+                    <option value="#">Post-graduate
+                    </option>
+                    <option value="#">Graduate
+                    </option>
+                    <option value="#">Doctorate</option>
+                </select>
+            </div>
+
+
+    
+    <div>
+        <p class="question-title">What is your purpose</p>
+        <textarea cols="30" rows="10" style="resize: none;"></textarea>
+    </div>
+    <div>
+        <button id="submit">Submit</button>
+    </div>
+</form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+
+
+</html>
